@@ -1,4 +1,4 @@
-## 模仿自:https://tw511.com/a/01/26453.html、
+## 模仿自:https://github.com/HarryChen0506/js-tetris
 ## 功能:
 1.左右方向鍵來控制方塊的水平移動
 2.上方向鍵來控制方塊的旋轉
