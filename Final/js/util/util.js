@@ -2,14 +2,14 @@
 // 工具函数
 (function (win, undefined){
     /**  
-     * 将矩阵旋转90度
-     * @params matrix 目标矩阵
-     * return 旋转的新矩阵
+     * 將矩陣旋轉90度
+     * @params matrix 目標矩陣
+     * return 旋轉的新矩陣
      */    
     var rotate = function( matrix ){  
-        //  matrix 为正方形矩阵 
+        //  matrix 為正方形矩陣 
         var length = matrix[0].length;
-        // rotatedMatrix 转换后的矩阵
+        // rotatedMatrix 轉換後的矩陣
         var rotatedMatrix = [];
         for(var i=0; i< length; i++){            
             var row = [];
