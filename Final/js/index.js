@@ -10,28 +10,28 @@ function Player(){
         document.addEventListener('keydown', function(e){ 
             // console.log('e',e)
             switch(e.keyCode){
-                case 38:                
-                    game.rotate();
+                case 87:// W鍵           
+                    game.rotate(); // 旋轉
                     run()
                     break;
-                case 39:
-                    game.right();
+                case 68:// D鍵
+                    game.right(); // 向右
                     run()
                     break;
-                case 37:
-                    game.left();
+                case 65:// A鍵
+                    game.left(); // 向左
                     run()
                     break;
-                case 40:
-                    game.down();
+                case 83:// S鍵
+                    game.down(); // 下落
                     run()
                     break;
-                case 32:
-                    game.fall();
+                case 32:// 空白鍵
+                    game.fall(); // 到底
                     run()
                     break;
-                case 81: //Q鍵
-                    _play();
+                case 81: // Q鍵
+                    _play();   //暫停
                     break;
                 default:
                     break;

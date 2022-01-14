@@ -185,7 +185,7 @@ function Game(config){
     }   
     // 向下 
     function nextDown(){
-        clearData(gameData, curSquare.data, curSquare.origin, 0);                  //先清空旧数据
+        clearData(gameData, curSquare.data, curSquare.origin, 0);    // 先清空舊數據
         curSquare.down();   
         copyData(gameData, curSquare.data, curSquare.origin)    // 複製新數據
         refreshDiv(gameData, gameDivs)          // 刷新遊戲區
@@ -201,7 +201,7 @@ function Game(config){
     }
     // 向左
     function nextLeft(){
-        clearData(gameData, curSquare.data, curSquare.origin, 0);                  //先清空旧数据
+        clearData(gameData, curSquare.data, curSquare.origin, 0);     // 先清空舊數據
         curSquare.left();        
         copyData(gameData, curSquare.data, curSquare.origin)    // 複製新數據
         refreshDiv(gameData, gameDivs)          // 刷新遊戲區
@@ -215,7 +215,7 @@ function Game(config){
     }
     // 向右
     function nextRight(){
-        clearData(gameData, curSquare.data, curSquare.origin, 0);                  //先清空旧数据
+        clearData(gameData, curSquare.data, curSquare.origin, 0);      // 先清空舊數據
         curSquare.right();          
         copyData(gameData, curSquare.data, curSquare.origin)    // 複製新數據
         refreshDiv(gameData, gameDivs)          // 刷新遊戲區 
@@ -229,7 +229,7 @@ function Game(config){
     }
     // 旋轉
     function nextRotate(){
-        clearData(gameData, curSquare.data, curSquare.origin, 0);                  //先清空旧数据        
+        clearData(gameData, curSquare.data, curSquare.origin, 0);      // 先清空舊數據     
         curSquare.rotate();   // 旋轉       
         copyData(gameData, curSquare.data, curSquare.origin)    // 複製新數據
         refreshDiv(gameData, gameDivs)          // 刷新遊戲區
@@ -296,7 +296,7 @@ function Game(config){
     function runNext(){
         // console.log('next--');
         curSquare = nextSquare; 
-        nextSquare = squareFactory(createRandomNum(1,7), createRandomNum(0,3));  //下一个方块复制给当前
+        nextSquare = squareFactory(createRandomNum(1,7), createRandomNum(0,3));  //下一個方塊複製給當前
         refreshDiv(nextSquare.data, nextDivs);  // 刷新下個方塊
     }
     
