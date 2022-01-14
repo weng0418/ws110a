@@ -2,6 +2,13 @@
 https://github.com/HarryChen0506/js-tetris
 
 複製90%、10原創(背景、音樂、方塊顏色、操控)
+
+## 素材:
+
+music:https://www.youtube.com/watch?v=JsHqEpWQl-8
+
+background:https://zh.lovepik.com/
+
 ## 功能:
 
 1.A跟D鍵來控制方塊的水平移動
@@ -51,6 +58,6 @@ https://github.com/HarryChen0506/js-tetris
 
 4.UI太過簡潔，可以設定一些按鈕(結束遊戲、重新開始)
 
-5.遊戲區域太小
+5.遊戲畫面太小
 
 6.音樂沒辦法自動播放
